@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #222;
+    text-align: center;
+}
+
+/* HERO */
+.hero {
+    padding: 50px 20px 20px;
+    text-align: center;
+}
+
+.portfolio-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0;
+}
+
+.tag {
+    font-size: 1rem;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: white;
+    border: 2px solid #3b7dda;
+    font-weight: 600;
+    color: #3b7dda;
+    text-decoration: none;
+}
+
+.highlight {
+    background: #3b7dda;
+    color: white;
+}
+
+/* ABOUT */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+    align-items: flex-start;
+}
+
+.about-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Subheaders ("HEY THERE" and "CONTACT") */
+.subheader {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: black;
+}
+
+/* SKILLS */
+.skills {
+    margin-top: 20px;
+    text-align: left;
+    border-left: 3px solid #3b7dda;
+    padding-left: 15px;
+}
+
+.skills h3 {
+    font-size: 1.3rem;
+    color: #3b7dda;
+    margin-bottom: 10px;
+}
+
+.skills-columns {
+    display: flex;
+    gap: 40px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    text-align: left;
+}
+
+.contact-info a {
+    color: #3b7dda;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* PROJECTS SECTION */
+.projects {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-category {
+    flex: 1;
+    margin: 20px;
+}
+
+.project-category h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.project {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.project h4 {
+    font-size: 1.3rem;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project a {
+    color: #3b7dda;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .about-container,
+    .project-grid {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
